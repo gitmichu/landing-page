@@ -67,6 +67,8 @@ h1 {
     background-color: #1f2937;
     color: white;
     min-height: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero img {
@@ -76,14 +78,16 @@ h1 {
 
 .hero .container {
     display: flex;
+    flex: 1;
+    gap: 100px;
     justify-content: space-between;
     align-items: center;
-    gap: 400px;
 }
+
 
 .hero-text p {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
 }
 
 .upper-button {
